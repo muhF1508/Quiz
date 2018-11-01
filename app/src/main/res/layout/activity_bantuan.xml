@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidjoss"
+    android:scrollbars="vertical">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/oomantapbro" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="About"
+        android:textSize="30sp"
+        android:textStyle="bold|normal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/androidlogo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView8"
+        android:text="Nama Aplikasi : Kuis Islami "
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:text="© 2018 M.Barra Firdaus"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/imageView4"
+        android:text="Keterangan Aplikasi :"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView7"
+        android:text="Version : 1.0 Beta"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView9"
+        android:text="Design By : "
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView10"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="freepik.com dan Google"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="156dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_toStartOf="@+id/textView3"
+        app:srcCompat="@drawable/yangbener"
+        android:layout_toLeftOf="@+id/textView3" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="289dp">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="313dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_margin="5dp"
+                android:layout_marginRight="0dp"
+                android:text="   Jadi Aplikasi ini adalah Kuis Islami yang ditinjau dari katanya Kuis dari bahasa Inggris: quiz, adalah padanan kata atau sinonim untuk permainan teka-teki, yang biasanya berhadiah, tapi saya mohon maaf jika kuis ini saya belum bisa memberikan hadiah kepada kalian, Pada umumnya, kuis dikenal melalui acara televisi yang disiarkan secara rutin setiap pekan atau setiap hari, tapi kali ini saya membuat kuis dengan bentuk Aplikasi berbasis Android. Aplikasi ini akan memberikan soal berbeda dengan kuis lainnya, jika kita biasa menemui kuis dengan soal penegtahuan umum, Aplikasi ini akan memberikan soal tentang Agama Islam yang mana kita akan diuji seberapa paham kita tentang pengetahuan Agama Islam dan jika kalian membuka Aplikasi ini, disini terdapat kategori kuisnya mulai dari Agama, Ilmuwan, Bahasa Arab dan Tajwid , Dan itulah yang bisa saya sampaikan mengenai aplikasi ini, Wasssalamualaikum Warahmatullahi Wabarakatuh...
+"
+                android:textSize="15dp" />
+            "
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp" />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="﷽ "
+        android:textSize="30sp" />
+
+</RelativeLayout>

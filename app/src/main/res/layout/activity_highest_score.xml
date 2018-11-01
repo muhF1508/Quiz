@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_highest_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bluenorth"
+    android:paddingTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/pack"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textscore"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab3"
+            android:padding="16dp"
+            android:text="Skor Anda :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textHighScore"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab1"
+            android:padding="16dp"
+            android:text="Skor Tertinggi  :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffff"
+            android:background="@drawable/tab"
+            android:text="Coba Lagi" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="49dp"
+                android:layout_marginLeft="291dp"
+                android:textColor="#fff"
+                android:onClick="hom"
+                android:layout_marginStart="291dp"
+                android:background="@drawable/capsule"
+                android:text="Home" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

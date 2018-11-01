@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yangbener"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Selamat Datang di Kuis Islami "
+            android:textAlignment="center"
+            android:textColor="#0D47A1"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_persegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/capsule"
+            android:onClick="btn_psg"
+            android:text="Agama" />
+
+        <Button
+            android:id="@+id/btn_segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:onClick="btn_sgt"
+            android:background="@drawable/capsule"
+            android:layout_marginTop="20dp"
+            android:text="Ilmuwan Muslim" />
+
+        <Button
+            android:id="@+id/btn_jjg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:onClick="btn_jjg"
+            android:background="@drawable/capsule"
+            android:layout_marginTop="20dp"
+            android:text="Bahasa Arab" />
+
+        <Button
+            android:id="@+id/btn_bkt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/capsule"
+            android:layout_marginTop="20dp"
+            android:onClick="btn_bkt"
+            android:text="Tajwid" />
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#ffff"
+            android:layout_marginTop="135dp"
+            android:onClick="btn_abot"
+            android:background="@drawable/capsule"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+

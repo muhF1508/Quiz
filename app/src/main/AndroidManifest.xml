@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mbarrafirdaus.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About"></activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".QuizActivityb"></activity>
+        <activity android:name=".QuisActivityc"></activity>
+        <activity android:name=".QuizActivityd"></activity>
+        <activity android:name=".QuizActivitye"></activity>
+        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".QuestionBank"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Quizb"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Quizc"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Quizd"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Quize"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".HighestScoreActivity"></activity>
+        <activity android:name=".HighestScoreActivityb"></activity>
+        <activity android:name=".HighestScoreActivityc"></activity>
+        <activity android:name=".HighestScoreActivityd"></activity>
+        <activity android:name=".HighestScoreActivitye"></activity>
+
+    </application>
+
+</manifest>
