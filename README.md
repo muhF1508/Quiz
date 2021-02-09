@@ -8,7 +8,6 @@
 Component :
 - Relative Layout
 - Image View
-- Edit Text
 - Text View 
 - Button
 - Splash Screen
