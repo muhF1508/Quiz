@@ -1,8 +1,8 @@
 # Quiz
 
-![screenshot](screenshot_1542427134)
+![screenshot](muhF1508/Quiz/screenshot_1542427134)
 
-![screenshot](screenshot_1543625120)
+![screenshot](muhF1508/Quiz/screenshot_1543625120)
 
 
 Component :
