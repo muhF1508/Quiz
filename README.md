@@ -2,7 +2,7 @@
 
 ![screenshot](Quiz/Screenshot_1542427134.png)
 
-![screenshot](Quiz/Screenshot_1543625120)
+![screenshot](Quiz/Screenshot_1542427134.png)
 
 
 Component :
