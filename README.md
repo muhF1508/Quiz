@@ -1,4 +1,4 @@
-# Quiz
+# Quiz Islami
 
 ![screenshot](app/src/main/res/Screenshot_1542427134.png)
 
