@@ -7,7 +7,6 @@
 
 Component :
 - Relative Layout
-- Linear Layout
 - Image View
 - Edit Text
 - Text View 
