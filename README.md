@@ -1,8 +1,8 @@
 # Quiz
 
-![screenshot](Quiz/Screenshot_1542427134.png)
+![screenshot](app/src/main/res/Screenshot_1542427134.png)
 
-![screenshot](Quiz/Screenshot_1542427134.png)
+![screenshot](app/src/main/res/Screenshot_1542427134.png)
 
 
 Component :
